@@ -24,7 +24,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioTres {
-    position: relative;
+    position: absolute;
     top: 100px;
     left: 200px;
 }
@@ -33,9 +33,9 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioCuatro {
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 /* Ejercicio 5: */
@@ -52,8 +52,14 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 #ejercicioSiete {
     display: flex;
-    flex-direction: column;
     align-items: center;
+}
 
+#elementoUno{
+    align-self: flex-end;
+}
+
+#elementoTres{
+    align-self: flex-end;
 }
 
